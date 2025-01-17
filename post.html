@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2 etc Tutorial</title>
+
+        <script src="https://kit.fontawesome.com/01d9e2f542.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="./images/logo.svg" alt="Tech Educa">
+            <div class="menu">
+                <ul>
+                    <i id="menu-close" class="fa-regular fa-circle-xmark"></i>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a class="active" href="#">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="./images/menu.png" alt="manu">
+            </div>
+        </nav>
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="./images/b1.jpg" alt="">
+                    <h3>Learn Web Debelopment in the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic cum rem consequuntur rerum magni repellendus exercitationem officiis autem nemo laborum quasi repudiandae, labore ea totam accusamus nulla aspernatur! Sapiente.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus ab, veritatis voluptate tempore, repudiandae minima, nesciunt unde ipsa amet sint impedit! Fugit saepe velit pariatur quos minus, dolorum porro?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptate voluptatem est rerum aliquam repellat possimus, tempore dicta enim repellendus ea veritatis vitae unde cumque ipsam sapiente quasi maxime accusantium?
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur, quam accusantium cum modi dolores molestiae illo maiores quod beatae sequi fugit repellat soluta culpa provident, perferendis eos ratione! Ratione.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vel cumque cum praesentium ab optio quae temporibus corrupti aspernatur, incidunt, quaerat saepe eveniet deleniti! Maiores incidunt tenetur optio minus officiis!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores a reiciendis voluptatem amet debitis, expedita, non, porro facilis assumenda soluta cupiditate quidem necessitatibus! Debitis ad recusandae vitae. Eos, dolor placeat!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum, commodi dignissimos hic eius totam. Odio nesciunt repellat repudiandae et commodi. Amet consectetur laborum inventore culpa, ex quia asperiores eius?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam autem dolore, ullam quibusdam optio amet, incidunt alias quaerat error, quasi expedita nesciunt exercitationem voluptate fugiat! Ut odit tempore saepe.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quaerat nam est velit sint? Sapiente voluptate totam, cumque iure corporis doloremque cupiditate assumenda alias laudantium consectetur deleniti delectus expedita modi?
+                    </p>
+                    <a href="#">Read Next ?</a>
+
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Inverstor Relations</li>
+                <li>Terms of Servide</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Reserch</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>        
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. we only send promo offers</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a class="yellow" href="#">SUBSCRIBE</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p> Copyright &copy; 2021 All Rights Reserved | This template is made by Tech2etc</p> <!--&copy is gor creating a logo which you can see in live server on website-->
+                <div class="link">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>       
+        <script>
+            // Navaigation Bar
+            $('#menu-close').click(function() {
+                $('nav .menu ul').removeClass('active')
+            });
+            $('#menu-btn').click(function() {
+                $('nav .menu ul').addClass('active')
+            });
+
+        </script>
+    </body>
+
+</html>
